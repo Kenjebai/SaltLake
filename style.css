@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    color: #000;
+}
+main{
+    background-image: url(./images/background.png);
+    background-size: 100%;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+.company{
+    width: 95%;
+    margin: 0 auto;
+    padding: 10px;
+}
+nav{
+    text-align: left;
+}
+.company img{
+    width: 15%;
+}
+header{
+    display: flex;
+    padding: 10px;
+}
+.cosmetics{
+    width: 100%;
+    color: blue;
+}
+.cosmetics img{
+    width: 100%;
+}
+.cosmetics .whatsapp{
+    width: 35px;
+}
+.cosmetic{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    padding: 20px;
+}
+.shampoo{
+    width: 30%;
+}
+.shampoo p{
+    background-color: rgb(227, 228, 230);
+}
+section{
+    width: 30%;
+}
+header section img{
+    width: 60%;
+}
+nav{
+    float: right;
+    width: 70%;
+}
+ul li {
+    list-style-type: none;
+}
+ul li img {
+    width: 25px;
+}
+hr{
+    height: 0; 
+    border: none; 
+    border-top: 3px solid #446fe4;
+    width: 95%;
+    margin: 0 auto;
+}
+.wa{
+    display: flex;
+    justify-content: end;
+    margin: 10px 10px 10px 0;
+}
+.wa p{
+    padding: 10px 10px 10px 0;
+    color: #000;
+    display: inline;
+}
