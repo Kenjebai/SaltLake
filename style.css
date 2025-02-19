@@ -31,6 +31,8 @@ header{
 .cosmetics{
     width: 100%;
     color: blue;
+    border: 1px slategray solid;
+    margin-top: 5px;
 }
 .cosmetics img{
     width: 100%;
@@ -38,18 +40,56 @@ header{
 .cosmetics .whatsapp{
     width: 35px;
 }
+.cosmetics2{
+    text-align: left;
+    margin: 5px 0;
+    padding: 5px;
+}
+.cosmetics2 h2{
+    text-align: center;
+}
+.sweatshirt{
+    display: inline-block;
+    width: 65%;
+}
 .cosmetic{
     display: flex;
     flex-wrap: wrap;
     gap: 5%;
     padding: 20px;
 }
+.cosmetic2{
+    margin: 5px;
+}
 .shampoo{
     width: 30%;
 }
-.shampoo p{
-    background-color: rgb(227, 228, 230);
+.shampoo2 img{
+    width: 60%;
+    margin-left: 20%;
 }
+span{
+    background-color: rgb(227, 228, 230);
+    padding: 1px 5px 5px;
+    border-radius: 6px;
+    font-size: 15px;
+}
+.hh{
+    height: 2px;
+}
+table{
+    width: 100%;
+    margin-bottom: 5px;
+}
+.th{
+    font-size: 18px;
+}
+.td{
+    color: #000;
+}
+/* table, tr, th, td{
+    border: 1px solid black;
+} */
 section{
     width: 30%;
 }
