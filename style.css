@@ -87,9 +87,7 @@ table{
 .td{
     color: #000;
 }
-/* table, tr, th, td{
-    border: 1px solid black;
-} */
+
 section{
     width: 30%;
 }
@@ -113,6 +111,9 @@ hr{
     width: 95%;
     margin: 0 auto;
 }
+.cos{
+    border: none;
+}
 .wa{
     display: flex;
     justify-content: end;
@@ -122,4 +123,8 @@ hr{
     padding: 10px 10px 10px 0;
     color: #000;
     display: inline;
+}
+.ppp{
+    margin: 10px 0;
+    width: 100%;
 }
